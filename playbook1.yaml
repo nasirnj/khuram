@@ -1,0 +1,7 @@
+---
+- name: This is to test the playbook
+  hosts: all
+  tasks:
+    - name: Spitting out a message
+      debug:
+        msg: "I Love Linux Khuram Khan"
